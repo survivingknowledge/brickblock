@@ -1,0 +1,12 @@
+nav {
+  position: relative;
+  background: #1b1c21;
+  border-bottom: 1px solid #282828;
+  padding: 10px 0;
+}
+
+nav::after {
+  content: '';
+  display: table;
+  clear: both;
+}
