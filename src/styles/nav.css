@@ -2,6 +2,7 @@ nav {
   position: relative;
   background: #1b1c21;
   border-bottom: 1px solid #282828;
+  width: 100%;
   padding: 10px 0;
 }
 
@@ -9,4 +10,58 @@ nav::after {
   content: '';
   display: table;
   clear: both;
+}
+
+.branding {
+  display: inline-block;
+  background: url(../images/logo.jpg) no-repeat;
+  padding-left: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.mobile-toggle-menu {
+  float: right;
+  position: relative;
+  top: 5px;
+}
+
+.menu {
+  display: none;
+  margin-top: 10px;
+}
+
+ul.menu > li {
+  padding: 10px 0;
+}
+
+
+@media (min-width: 768px) {
+  .mobile-toggle-menu { display: none; }
+  .menu {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: 0;
+    right: 0;
+    display: block;
+  }
+
+  ul.menu > li {
+    float: left;
+    height: 100%;
+    padding: 0 20px;
+  }
+
+  ul.menu > li:hover, li.active {
+    border-bottom: 1px solid dodgerblue;
+  }
+
+  ul.menu > li > a {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 }
