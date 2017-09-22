@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import '../styles/app.css';
 import '../styles/base.css';
+import FA from 'react-fontawesome';
+import Fundstats from './Fundstats';
 
 import Navbar from './Navbar';
 
@@ -11,9 +13,18 @@ class App extends Component {
         <header>
           <Navbar />
         </header>
-        <div className="container">
-          <div className="row">hello</div>
-        </div>
+        <section className="container">
+          <div className="row">
+            <div className="card">
+              <header className='card-header'>
+                <div className="card-title">Lobo Fund</div>
+                <div className="card-menu"><FA name='ellipsis-h' /></div>
+              </header>
+              <Fundstats />
+              <hr className='card-divider' />
+            </div>
+          </div>
+        </section>
       </div>
     );
   }

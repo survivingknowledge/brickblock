@@ -8,7 +8,7 @@ const Navbar = (props) => {
       <div className="container">
         <div className="row">
           <div className="nav-padding">
-            <div className="branding"><a href="/">Blockbrick</a></div>
+            <div className="branding"><a href="/">Brickblock</a></div>
             <div className="mobile-toggle-menu"><FA name='bars' /></div>
           </div>
           <ul className="menu">
