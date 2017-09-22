@@ -4,19 +4,15 @@ import '../styles/base.css';
 
 import Navbar from './Navbar';
 
-
-import FA from 'react-fontawesome';
-
 class App extends Component {
   render() {
     return (
       <div className="App">
+        <header>
+          <Navbar />
+        </header>
         <div className="container">
-          <div className="row">
-            <header>
-              <Navbar />
-            </header>
-          </div>
+          <div className="row">hello</div>
         </div>
       </div>
     );
