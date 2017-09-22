@@ -33,7 +33,7 @@ nav::after {
 
 .menu {
   position: relative;
-  display: block;
+  display: none;
   margin-top: 10px;
   z-index: 100;
   background: #1b1c21;
@@ -74,5 +74,8 @@ ul.menu > li:last-child {
 
   ul.menu > li > a {
     line-height: 50px;  /* same height at navbar */
+    font-size: .75rem;
+    font-weight: bold;
+    text-transform: uppercase;
   }
 }

@@ -10,7 +10,6 @@ const Navbar = (props) => {
           <div className="nav-padding">
             <div className="branding"><a href="/">Blockbrick</a></div>
             <div className="mobile-toggle-menu"><FA name='bars' /></div>
-
           </div>
           <ul className="menu">
             <li><a href="/profile">Profile</a></li>
