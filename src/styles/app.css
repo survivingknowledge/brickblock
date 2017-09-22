@@ -86,10 +86,10 @@
 }
 
 .fund-stats {
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 
-.fund-stats::after {
+.fund-stats::after, .fancy-charts::after {
   content: '';
   display: table;
   clear: both;
@@ -104,8 +104,8 @@
   max-height: 0;
   font-size: 1px;
   line-height: 0;
-  clear: both;
   border: none;
   border-top: 1px solid #000;
   border-bottom: 1px solid #282828;
+  margin: 30px 0;
 }

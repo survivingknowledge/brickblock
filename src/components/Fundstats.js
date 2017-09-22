@@ -5,7 +5,7 @@ const Fundstats = (props) => {
   return (
     <div className="fund-stats">
       <div className="col col-3 money">
-        <div>$ 2,059,346</div>
+        <div>$2,059,346</div>
         <div className='sub-text'>NAV</div>
       </div>
       <div className="col col-3 supply">
