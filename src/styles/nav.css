@@ -32,7 +32,8 @@ nav::after {
 }
 
 .menu {
-  display: none;
+  position: relative;
+  display: block;
   margin-top: 10px;
   z-index: 100;
   background: #1b1c21;
@@ -41,6 +42,9 @@ nav::after {
 ul.menu > li {
   padding: 10px 0;
   border-bottom: 1px solid #282828;
+}
+ul.menu > li:last-child {
+  border-bottom: 0;
 }
 
 
