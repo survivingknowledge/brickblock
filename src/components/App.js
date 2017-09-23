@@ -19,7 +19,7 @@ class App extends Component {
             ctx = chart.chart.ctx;
 
         ctx.restore();
-        var fontSize = (height / 250).toFixed(2);
+        var fontSize = (height / 150).toFixed(2);
         ctx.font = fontSize + "em sans-serif";
         ctx.textBaseline = "middle";
         //text color
@@ -65,7 +65,7 @@ class App extends Component {
         },
         cutoutPercentage: 80,
         rotation: 5,
-        responsive: true,
+        responsive: false,
         maintainAspectRatio: true,
       }
 
